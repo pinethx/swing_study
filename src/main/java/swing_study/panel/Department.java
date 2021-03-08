@@ -3,6 +3,7 @@ package swing_study.panel;
 import java.util.List;
 
 // 1. department 테이블을 클래스로 생성
+@SuppressWarnings("unused")
 public class Department {
 	// field
 	private int deptNo;
@@ -55,7 +56,7 @@ public class Department {
 	// toString
 	@Override
 	public String toString() {
-		return String.format("Department [deptNo=%s, deptName=%s, floor=%s]", deptNo, deptName, floor);
+//		return String.format("Department [deptNo=%s, deptName=%s, floor=%s]", deptNo, deptName, floor);
+		return String.format("%s, %s, %s층", deptName, deptNo, floor);
 	}
-
 }

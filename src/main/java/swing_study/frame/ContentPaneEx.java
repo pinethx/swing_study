@@ -10,6 +10,7 @@ import java.awt.FlowLayout;
 import javax.swing.JButton;
 import java.awt.Color;
 
+@SuppressWarnings({ "unused", "serial" })
 public class ContentPaneEx extends JFrame {
 
 	private JPanel contentPane;

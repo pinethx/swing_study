@@ -14,6 +14,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+@SuppressWarnings("serial")
 public class JPanelEx extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
